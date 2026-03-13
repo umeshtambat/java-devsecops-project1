@@ -7,7 +7,5 @@ spec:
   selector:
     app: springboot-app
   ports:
-    - protocol: TCP
-      port: 8081       # Externally exposed port
-      targetPort: 8081 # Container port inside pod
-
+    - port: 8081
+      targetPort: 8080
