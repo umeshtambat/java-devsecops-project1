@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  java-devsecops-project1:
+    build: .
+    container_name: java-devsecops-project1-container
+    ports:
+      - "8111:8080"
+    image: java-devsecops-project1-image:latest
